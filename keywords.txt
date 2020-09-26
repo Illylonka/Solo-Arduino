@@ -1,0 +1,77 @@
+# Keywords for Arduino library "Solo"
+# written by Ilka Schulz
+# report bugs to: solo-controller@schulz.com.de
+
+# types
+Solo					KEYWORD1
+CommandMode				KEYWORD1
+MotorDirection			KEYWORD1
+SpeedControlMode		KEYWORD1
+MotorType				KEYWORD1
+ControlMode				KEYWORD1
+
+
+# enumerated symbols
+Analog					LITERAL1
+Digital					LITERAL1
+Clockwise				LITERAL1
+Counterclockwise		LITERAL1
+Sensorless				LITERAL1
+Encoders				LITERAL1
+DC						LITERAL1
+PMSM					LITERAL1
+ACIM					LITERAL1
+PMSM_ULTRAFAST			LITERAL1
+Speed					LITERAL1
+Torque					LITERAL1
+Position				LITERAL1
+
+
+# methods
+setAddress				KEYWORD2
+setCommandMode			KEYWORD2
+setTorqueReference		KEYWORD2
+setSpeedReference		KEYWORD2
+setPowerReference		KEYWORD2
+stopSystem				KEYWORD2
+setPWMFrequency			KEYWORD2
+setSpeedControllerKp	KEYWORD2
+setSpeedControllerKi	KEYWORD2
+setMotorDirection		KEYWORD2
+setResistance			KEYWORD2
+setInductance			KEYWORD2
+setNumberOfPoles		KEYWORD2
+setEncoderLines			KEYWORD2
+setSpeedControlMode		KEYWORD2
+resetToFactory			KEYWORD2
+setMotorType			KEYWORD2
+setControlMode			KEYWORD2
+setCurrentControllerKp	KEYWORD2
+setCurrentControllerKi	KEYWORD2
+
+getDeviceAddress		KEYWORD2
+getVoltageA				KEYWORD2
+getVoltageB				KEYWORD2
+getCurrentA				KEYWORD2
+getCurrentB				KEYWORD2
+getBusVoltage			KEYWORD2
+getDCCurrent			KEYWORD2
+getDCVoltage			KEYWORD2
+getSpeedControllerKp	KEYWORD2
+getSpeedControllerKi	KEYWORD2
+getPWMFrequency			KEYWORD2
+getCurrentLimit			KEYWORD2
+getQuadratureCurrent	KEYWORD2
+getDirectCurrent		KEYWORD2
+getNumberOfPoles		KEYWORD2
+getEncoderLine			KEYWORD2
+getCurrentControllerKp	KEYWORD2
+getCurrentControllerKi	KEYWORD2
+getTemperature			KEYWORD2
+getResistance			KEYWORD2
+getInductance			KEYWORD2
+getSpeed				KEYWORD2
+getMotorType			KEYWORD2
+getSpeedControlMode		KEYWORD2
+getControlMode			KEYWORD2
+resetAllAddresses		KEYWORD2
